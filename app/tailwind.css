@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Satoshi";
+    src: url("/assets/fonts/Satoshi-Regular.woff2") format("woff2"),
+      url("/assets/fonts/Satoshi-Regular.woff") format("woff"),
+      url("/assets/fonts/Satoshi-Regular.ttf") format("truetype"),
+      url("/assets/fonts/Satoshi-Regular.eot") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Satoshi";
+    src: url("/assets/fonts/Satoshi-Bold.woff2") format("woff2"),
+      url("/assets/fonts/Satoshi-Bold.woff") format("woff"),
+      url("/assets/fonts/Satoshi-Bold.ttf") format("truetype"),
+      url("/assets/fonts/Satoshi-Bold.eot") format("embedded-opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-titles;
+  }
+
+  p,
+  span {
+    @apply font-body;
+  }
+}
