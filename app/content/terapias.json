@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1683072618/dionimarayogaeterapias.com.br/terapias/reiki.png",
+        "name": "Reiki",
+        "shortDescription": "É uma terapia baseada na energia universal, que utiliza toques leves ou mesmo a imposição das mãos para equilibrar a energia do corpo, mente e espírito. Esta tecnica  a redução do estresse e ansiedade, alívio de dores e a promoção de um estado de relaxamento profundo, além de estimular o processo de cura natural do corpo.",
+        "longDescription": [],
+        "duration": [
+            60,
+            90
+        ]
+    },
+    {
+        "id": 2,
+        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1683072618/dionimarayogaeterapias.com.br/terapias/reflexoterapia.png",
+        "name": "Reflexoterapia",
+        "shortDescription": "Para pessoas estressadas, tensas, nervosas, com diversos tipos de dores e desequilíbrios do sistema. É uma técnica terapêutica que visa restabelecer o equilíbrio do organismo através de estímulos de pontos reflexos do corpo localizados  nos pés.",
+        "longDescription": [],
+        "duration": [
+            60,
+            90
+        ]
+    },
+    {
+        "id": 4,
+        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1683072618/dionimarayogaeterapias.com.br/terapias/terapia_floral.png",
+        "name": "Terapia Florar",
+        "shortDescription": "Auxilia no equilíbrio das emoções, trabalha personalidades e acalma estados mentais alterados. As essências extraídas das flores transformam estados mentais  e emocionais negativos em positivos. Os florais são por mim selecionados para um tratamento pessoal e mirado.",
+        "longDescription": [],
+        "duration": [
+            60,
+            90
+        ]
+    },
+    {
+        "id": 3,
+        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1683072618/dionimarayogaeterapias.com.br/terapias/calatonia.png",
+        "name": "Calatonia",
+        "shortDescription": "É um método terapêutico de relaxamento profundo que tem como objetivo recuperar o tônus ideal do organismo, liberando tensões físicas, psíquicas e emocionais. É eficaz para pessoas desanimadas, constantemente cansadas e inquietas.",
+        "longDescription": [],
+        "duration": [
+            60,
+            90
+        ]
+    }
+]

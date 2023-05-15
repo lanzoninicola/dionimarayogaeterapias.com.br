@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "imageUrl": null,
+        "name": "Yoga para Adultos",
+        "shortDescription": "O objetivo é melhorar a flexibilidade, força e equilíbrio físico, bem como reduzir o estresse e a ansiedade, promovendo assim uma sensação de bem-estar físico e mental.",
+        "longDescription": [],
+        "duration": 90
+    },
+    {
+        "id": 2,
+        "imageUrl": null,
+        "name": "Yoga para Gestantes",
+        "shortDescription": "O objetivo é melhorar o condicionamento físico e mental durante a gravidez, promovendo uma gestação mais saudável e tranquila, além de preparar a mãe para o parto e para o pós-parto.",
+        "longDescription": [],
+        "duration": 90
+    },
+    {
+        "id": 3,
+        "imageUrl": null,
+        "name": "Yoga para Crianças",
+        "shortDescription": "O objetivo é estimular a concentração, a criatividade, a coordenação motora, o equilíbrio emocional e a consciência corporal, promovendo assim o desenvolvimento integral da criança.",
+        "longDescription": [],
+        "duration": 90
+    },
+    {
+        "id": 4,
+        "imageUrl": null,
+        "name": "Yoga para Terceira Idade",
+        "shortDescription": "O objetivo é de melhorar a flexibilidade, a força muscular, o equilíbrio e a postura, além de reduzir o estresse, a ansiedade e a depressão, promovendo assim uma vida mais saudável e feliz na terceira idade.",
+        "longDescription": [],
+        "duration": 90
+    }
+]

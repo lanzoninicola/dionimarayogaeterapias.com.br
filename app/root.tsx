@@ -9,7 +9,10 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-import tailwindStyle from "~/tailwind.css";
+import tailwindStyles from "~/tailwind.css";
+
+import Header from "./client/components/header/header";
+import Main from "./client/components/layout/main/main";
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
@@ -28,12 +31,39 @@ export const links: LinksFunction = () => [
     type: "font/woff2",
     crossOrigin: "anonymous",
   },
-  { rel: "stylesheet", href: tailwindStyle },
+  { rel: "stylesheet", href: tailwindStyles },
+  { rel: "icon", href: "/assets/favicons/favicon.ico" },
+  {
+    rel: "apple-touch-icon",
+    sizes: "180x180",
+    href: "/assets/favicons/apple-touch-icon.png",
+  },
+  {
+    rel: "icon",
+    type: "image/png",
+    sizes: "32x32",
+    href: "/assets/favicons/favicon-32x32.png",
+  },
+  {
+    rel: "icon",
+    type: "image/png",
+    sizes: "16x16",
+    href: "/assets/favicons/favicon-16x16.png",
+  },
+  {
+    rel: "manifest",
+    href: "/assets/favicons/site.webmanifest",
+  },
+  {
+    rel: "mask-icon",
+    href: "/assets/favicons/safari-pinned-tab.svg",
+    color: "#5bbad5",
+  }
 ];
 
 export default function App() {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -41,7 +71,10 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Outlet />
+        <Main>
+          <Header />
+          <Outlet />
+        </Main>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
