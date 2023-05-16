@@ -4,7 +4,11 @@ import ServiceBox from "~/client/components/service-box/service-box";
 import { json } from "@remix-run/node";
 import type { V2_MetaFunction } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
-import type { ServiceUI } from "~/types";
+import type { Handle, ServiceUI } from "~/types";
+
+export const handle: Handle = {
+  lastModified: () => '2023-05-16T12:00:00Z',
+}
 
 export const meta: V2_MetaFunction = () => {
   return [

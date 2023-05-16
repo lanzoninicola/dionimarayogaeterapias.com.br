@@ -5,6 +5,11 @@ import getDomainUrl from "./utils/get-domain-url";
 import removeTrailingSlash from "./utils/remove-trailing-slash";
 import typedBoolean from "./utils/typed-boolean";
 
+/*
+ * This function generates a sitemap.xml file for your site. It's called by
+ * the runtime routes in `app/runtime-routes.server.ts` when a request comes
+ * in for `/sitemap.xml`.
+ */
 async function getSitemapXml(request: Request, remixContext: EntryContext) {
   const domainUrl = getDomainUrl(request);
 
@@ -22,10 +27,11 @@ async function getSitemapXml(request: Request, remixContext: EntryContext) {
   const rawSitemapEntries = (
     await Promise.all(
       Object.entries(remixContext.routeModules).map(async ([id, mod]) => {
-        console.log(id, mod);
+        console.log(mod);
 
         if (id === "root") return;
-        if (id.startsWith("routes/_")) return;
+        // 2023-05-16 commented out to allow the home page to be included in the sitemap
+        // if (id.startsWith("routes/_")) return;
         if (id.startsWith("__test_routes__")) return;
 
         const handle = mod.handle as Handle | undefined;
@@ -69,7 +75,10 @@ async function getSitemapXml(request: Request, remixContext: EntryContext) {
         if (path.includes(":")) return;
         if (id === "root") return;
 
-        const entry: SitemapEntry = { route: removeTrailingSlash(path) };
+        const entry: SitemapEntry = {
+          route: removeTrailingSlash(path),
+          lastmod: handle?.lastModified?.(),
+        };
         return entry;
       })
     )
@@ -103,7 +112,6 @@ async function getSitemapXml(request: Request, remixContext: EntryContext) {
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 >
   ${sitemapEntries.map((entry) => getEntry(entry)).join("")}
-  ${getEntry({ route: "/", priority: 1.0 })}
 </urlset>
   `.trim();
 }

@@ -51,4 +51,5 @@ export type Handle = {
     | Promise<Array<SitemapEntry | null> | null>
     | Array<SitemapEntry | null>
     | null;
+  lastModified?: () => string;
 };
