@@ -12,27 +12,44 @@ import { RemixServer } from "@remix-run/react";
 import isbot from "isbot";
 import { renderToPipeableStream } from "react-dom/server";
 
+import { runtimeRoutes } from './runtime-routes.server'
+
 const ABORT_DELAY = 5_000;
 
-export default function handleRequest(
+// all requests are handled by this function
+export default async function handleRequest(
   request: Request,
   responseStatusCode: number,
   responseHeaders: Headers,
   remixContext: EntryContext
 ) {
+
+  // get the path from the request
+  const requestPath = new URL(request.url).pathname
+
+  // check if the path matches any of the runtime routes
+  const runtimeRouteMatched = Object.keys(runtimeRoutes).find((path) => requestPath === path)
+
+  // if the path matches a runtime route, run the handler
+  if (runtimeRouteMatched) {
+    const handler = runtimeRoutes[runtimeRouteMatched]
+    const runtimeRouteResponse = await handler(request, remixContext)
+    if (runtimeRouteResponse) return runtimeRouteResponse
+  }
+
   return isbot(request.headers.get("user-agent"))
     ? handleBotRequest(
-        request,
-        responseStatusCode,
-        responseHeaders,
-        remixContext
-      )
+      request,
+      responseStatusCode,
+      responseHeaders,
+      remixContext
+    )
     : handleBrowserRequest(
-        request,
-        responseStatusCode,
-        responseHeaders,
-        remixContext
-      );
+      request,
+      responseStatusCode,
+      responseHeaders,
+      remixContext
+    );
 }
 
 function handleBotRequest(
