@@ -1,0 +1,124 @@
+{
+    "frontDescription": "Olá! Meu nome é Dioni Mara. Entendo a importância do autocuidado, do bem-estar. Yoga, Técnicas de Massagens e Terapias Holísticas são as minhas ferramentas para ajudá-lo a alcançar seus objetivos de saúde, tanto a curto quanto a longo prazo. Convido você a vivenciar uma experiência única, terapêutica e relaxante, venha e veja por si mesmo o valor que a massagem terapêutica e a pratíca do yoga tem em seu corpo, mente e espírito.",
+    "profile": {
+        "title": "Perfil",
+        "content": [
+            "Sou Dioni Mara, profissional de yoga e terapias holísticas com vasta experiência em ajudar pessoas a alcançar seus objetivos de bem-estar. Com minhas habilidades em técnicas de massagem, terapias holísticas e prática de yoga, estou comprometida em fornecer uma abordagem personalizada para cada cliente. Além disso, busco continuamente atualizar minhas habilidades e conhecimentos para garantir que os clientes recebam a melhor experiência possível.",
+        ]
+    },
+    "professionalExperiences": {
+        "title": "Experiências Profissionais",
+        "content": [
+            {
+                "id": 1,
+                "title": "Massagista, Professora de Kundalini Yoga e Terapeuta Holística",
+                "content": [
+                    "Como profissional autônoma registrada como MEI, tenho oferecido serviços de massagens, yoga e terapia holística para clientes em Pato Branco desde 2021. Como parte do meu trabalho, desenvolvi habilidades em várias técnicas de massagem, incluindo massagem  Relaxante, com Ventosas, Linfatíca, Pedras, Bambuterapia e Liberação miofascial.",
+                    "Ofereço serviço de Yoga para adultos, gestantes, crianças e terçeira idade. Como terapeuta holística sou capacitada em: Reiki, Reflexoterapia, Calatonia e Terapia Floral.",
+                    "Meus serviços são personalizados para atender às necessidades individuais dos clientes, e eu também forneço aconselhamento sobre estilo de vida saudável e práticas de autocuidado.",
+                    "Recebi comentários positivos de clientes satisfeitos em minha página do Google, que elogiaram minha abordagem profissional, atenção e qualidade dos meus serviços. Esses comentários destacam minha habilidade em criar um ambiente relaxante e confortável para os clientes e em personalizar os serviços para atender às necessidades individuais de cada um deles."
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Professora de Kundalini Yoga",
+                "content": [
+                    "Como professora de yoga certificada, realizo aulas segundo às necessidades e habilidades dos alunos que incluem: práticas de postura, respiração, meditação e relaxamento. Durante o meu tempo como professora de yoga na Itália, fui capaz de desenvolver habilidades em comunicação efetiva e gestão de sala de aula.",
+                    "Fui reconhecida por minha abordagem profissional e atenção prestada, recebendo comentários positivos, liderando aulas de yoga com grande participação, incluindo aulas memoráveis com cerca de 40 alunos."
+                ]
+            }
+        ]
+    },
+    "academicTraining": {
+        "title": "Formação Acadêmica e Treinamento",
+        "content": [
+            {
+                "id": 100,
+                "title": "Estudante Estética e Cosmética - UNIPED",
+                "period": "2023",
+                "hours": null,
+                "institution": "UNIPED - Pato Branco - PR",
+                "visibility": "private"
+            },
+            {
+                "id": 200,
+                "title": "Reiki Nivel I",
+                "period": "2022",
+                "hours": 20,
+                "institution": "Maitri - Curso de atualização profissional",
+                "visibility": "public"
+            },
+            {
+                "id": 300,
+                "title": "Massagista (Relaxante, Modeladora, Bambú, Pedras, Drenagem, Quick, Ventosas, Liberação Miofascial)",
+                "period": "2022",
+                "hours": 240,
+                "institution": "Senac - Curso de atualização profissional",
+                "visibility": "public"
+            },
+            {
+                "id": 400,
+                "title": "Liberação Miofascial e Ventosaterapia",
+                "period": "2022",
+                "hours": 20,
+                "institution": "VibeLab Educacional - Curso de atualização profissional",
+                "visibility": "public"
+            },
+            {
+                "id": 500,
+                "title": "Calatonia & Terapia Floral",
+                "period": "2021",
+                "hours": 248,
+                "institution": "Instituto de Metafisica & Cièncias Avançadas",
+                "visibility": "public"
+            },
+            {
+                "id": 600,
+                "title": "Tigela Tibetana nivel I",
+                "period": "2019",
+                "hours": 16,
+                "institution": "Curso de atualização profissional - Itália",
+                "visibility": "public"
+            },
+            {
+                "id": 700,
+                "title": "Graduação em Psicologia Psicossocial",
+                "period": "2019",
+                "institution": "Universidade Internacional UNINETTUNO - Itália",
+                "visibility": "public"
+            },
+            {
+                "id": 800,
+                "title": "Yoga para gestantes - Teacher Training",
+                "period": "2019",
+                "hours": 50,
+                "institution": "Certificada Yoga Alliance Italia (ERYT 500) Gold Designation",
+                "visibility": "public"
+            },
+            {
+                "id": 900,
+                "title": "Kundalini Yoga - Teacher Training",
+                "period": "2019",
+                "hours": 200,
+                "institution": "Certificada IKITA ITALIA (International Yoga Teacher Association)",
+                "visibility": "public"
+            },
+            {
+                "id": 950,
+                "title": "Reflexoterapia",
+                "period": "2015",
+                "hours": 20,
+                "institution": null,
+                "visibility": "public"
+            },
+            {
+                "id": 960,
+                "title": "Técnicas de Massagem Profissional",
+                "period": "2015",
+                "hours": 30,
+                "institution": null,
+                "visibility": "public"
+            }
+        ]
+    }
+}
