@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Kelly Cristini Carneiro",
+        "text": "Excelente profissional, super dedicada e está sempre trazendo experiências maravilhosas para suas alunas. Não tinha idéia de quantos benefícios a prática de yoga pode nos proporcionar, na minha gestação ela tem ajudado muito a aliviar o stress e ansiedade, me ajuda a preparar e fortalecer meu corpo para hora do parto, e o melhor são as meditações, um momento de conexão mamãe e bebê, simplesmente incrível. Super recomendo.",
+        "stars": 5
+    },
+    {
+        "id": 2,
+        "name": "Samara Ernandes",
+        "text": "Tive a oportunidade de realizar aulas de Kundalini Yoga com a Profª Dione. Eu não conhecia a modalidade e fiquei encantada com as aulas, bastante completas, com posturas e meditações. Posso dizer que foi um divisor de águas, pois encontrei paz, equilíbrio e bem-estar. A Profª Dione sempre é muito atenciosa e afetuosa, o que é um diferencial nas aulas. Recomendo fortemente!!!",
+        "stars": 5
+    },
+    {
+        "id": 3,
+        "name": "Caroline Dos Santos",
+        "text": "Melhor Prof de Yoga! Prof Dione sempre transmitiu tranquilidade e luz em suas aulas. Me sinto MUITO confortável estando nelas porque Prof Dione sempre nos ensina a respeitar nosso próprio tempo dentro do Yoga, com amor e carinho.",
+        "stars": 5
+    },
+    {
+        "id": 4,
+        "name": "Gustavo Bergamaschi",
+        "text": "Excelente massagem!! Sofria muito com dores musculares e já na primeira sessão senti uma sensação de alívio e relaxamento. Aos poucos as contraturas e tensões musculares foram diminuindo, estou muito satisfeito",
+        "stars": 5
+    },
+    {
+        "id": 5,
+        "name": "Pablo Fagundez",
+        "text": "A Prof.(a) Dioni nas suas aulas conseguiu uma sequência de atividades que foi impressionante..eu sai de um sentimento de culpa e dor...para um momento de superação e auto confiança incrível..para eu que sou bem racional foi uma experiência incrível..recomendo muito..confesso  nem sei como cheguei nela..mas foi ótimo...não sou amigo e nem parente..somente grato.",
+        "stars": 5
+    },
+    {
+        "id": 6,
+        "name": "Marisa Bagiotto Rossato",
+        "text": "Ideal para o equilíbrio do corpo e da mente, além de ganho de flexibilidade!!",
+        "stars": 5
+    },
+    {
+        "id": 7,
+        "name": "Cassia Pereira",
+        "text": "Ótimo ambiente, sensação de paz e tranquilidade.",
+        "stars": 5
+    }
+]
