@@ -32,7 +32,7 @@ export default function Icon({ to, variant }: IconUIProps) {
     if (!variant) return null
 
     return (
-        <Link to={to}>
+        <Link to={to} target="_blank" >
             <img
                 className="w-8 h-8 md:w-12 md:h-12"
                 src={icons[variant].src}
