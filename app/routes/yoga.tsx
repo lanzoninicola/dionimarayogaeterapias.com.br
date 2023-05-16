@@ -38,7 +38,7 @@ export default function ServicosYoga() {
     return <>
         <Container>
             <h1 className="font-bold text-4xl mb-8">Yoga</h1>
-            <p className="md:text-xl leading-normal">Ofereço a prática de yoga para promover o bem-estar físico e mental, por meio da melhoria da flexibilidade, força, equilíbrio e concentração. Buscamos desenvolver a consciência corporal e emocional, visando uma vida mais saudável e equilibrada.</p>
+            <p className="md:text-xl leading-normal">Ofereço uma variedade de estilos de yoga para atender às suas necessidades individuais. Eu tenho opções para todos os níveis de experiência. Com cada tipo de yoga, meu objetivo é promover o bem-estar físico e mental, através da melhoria da flexibilidade, força, equilíbrio e concentração. Além disso, eu sou um instrutor altamente qualificado e estou comprometido em ajudá-lo a desenvolver sua consciência corporal e emocional, visando uma vida mais saudável e equilibrada. Explore meus diferentes tipos de yoga e encontre aquele que melhor se adapta a você!</p>
         </Container>
         <Container>
             <div className="flex flex-col gap-4 lg:gap-8 mt-8">
