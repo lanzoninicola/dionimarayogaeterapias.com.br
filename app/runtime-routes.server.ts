@@ -1,4 +1,5 @@
 import type { EntryContext } from "@remix-run/node";
+import { getSitemapXml } from "./sitemap.server";
 // import {getSitemapXml} from './utils/sitemap.server'
 
 type Handler = (
@@ -15,20 +16,10 @@ type Handler = (
  */
 const runtimeRoutes: Record<string, Handler> = {
   "/sitemap.xml": async (request, remixContext) => {
-    // const sitemap = await getSitemapXml(request, remixContext)
-    // return new Response(sitemap, {
-    //   headers: {
-    //     'Content-Type': 'application/xml',
-    //     'Content-Length': String(Buffer.byteLength(sitemap)),
-    //   },
-    // })
-
-    const sitemap = JSON.stringify({
-      hello: "world",
-    });
+    const sitemap = await getSitemapXml(request, remixContext);
     return new Response(sitemap, {
       headers: {
-        "Content-Type": "application/json",
+        "Content-Type": "application/xml",
         "Content-Length": String(Buffer.byteLength(sitemap)),
       },
     });
