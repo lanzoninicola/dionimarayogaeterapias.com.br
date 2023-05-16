@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.dionimarayogaeterapias.com.br/sitemap.xml
