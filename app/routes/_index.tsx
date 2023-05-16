@@ -11,6 +11,10 @@ import type { DealUI } from "~/types";
 
 import WhatsappExternalLink from "~/client/components/whatsapp-external-link/whatsapp-external-link";
 
+export const handle = {
+  lastModified: () => '2023-05-16T12:00:00Z',
+}
+
 export const meta: V2_MetaFunction = () => {
   return [
     { title: "Dioni Mara Yoga & Terapias" },
@@ -18,8 +22,6 @@ export const meta: V2_MetaFunction = () => {
     { keywords: "yoga, terapias, massagem, reiki, meditação, yoga em casa, yoga online, yoga em grupo, yoga em empresas, yoga em escolas, yoga em academias, yoga em condomínios, yoga" }
   ]
 }
-
-
 
 export function loader() {
 

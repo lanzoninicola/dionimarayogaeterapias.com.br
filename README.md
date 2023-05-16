@@ -2,9 +2,10 @@
 
 ## TODO
 
-- [ ] robots.txt
+- [ ] sitemap & robots.txt
 - [ ] SEO improvements
   - [ ] for each page add meta SEO tags
+- [ ] 404 page
 - [ ] Add customers testimonials
 - [ ] Add page with the photos of studio
 - [ ] Add about page

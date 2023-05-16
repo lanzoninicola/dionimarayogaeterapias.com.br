@@ -5,8 +5,11 @@ import { useLoaderData } from "@remix-run/react";
 import Container from "~/client/components/layout/container/container";
 import therapies from "../content/terapias.json"
 import ServiceBox from "~/client/components/service-box/service-box";
-import type { ServiceUI } from "~/types";
+import type { Handle, ServiceUI } from "~/types";
 
+export const handle: Handle = {
+    lastModified: () => '2023-05-16T12:00:00Z',
+}
 
 export const meta: V2_MetaFunction = () => {
     return [
