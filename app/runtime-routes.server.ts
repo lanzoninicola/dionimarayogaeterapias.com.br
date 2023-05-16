@@ -13,7 +13,7 @@ type Handler = (
  * Handler is a function that takes a request and remix context and returns a
  * response or null. If it returns null, we'll fall back to the routes defined
  */
-const pathedRoutes: Record<string, Handler> = {
+const runtimeRoutes: Record<string, Handler> = {
   "/sitemap.xml": async (request, remixContext) => {
     // const sitemap = await getSitemapXml(request, remixContext)
     // return new Response(sitemap, {
@@ -36,18 +36,13 @@ const pathedRoutes: Record<string, Handler> = {
 };
 
 /**
- * This is the array of routes that Remix will use to match requests to
+ * This is the array of handlers that Remix will use to match requests to
  * responses. It's a flat array of functions that take a request and remix
  * context and return a response or null. If they return null, we'll fall back
  * to the routes defined in `app/routes/*`.
  */
-const routesHandlers: Array<Handler> = [
-  ...Object.entries(pathedRoutes).map(([path, handler]) => {
-    return (request: Request, remixContext: EntryContext) => {
-      if (new URL(request.url).pathname !== path) return null;
-      return handler(request, remixContext);
-    };
-  }),
+const runtimeRoutesHandlers: Array<Handler> = [
+  ...Object.entries(runtimeRoutes).map(([_, handler]) => handler),
 ];
 
-export { routesHandlers, pathedRoutes };
+export { runtimeRoutesHandlers, runtimeRoutes };
