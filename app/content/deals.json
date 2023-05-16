@@ -1,6 +1,17 @@
 [
     {
         "id": 1,
+        "thumbnailImageURL": "https://res.cloudinary.com/cloudnila/image/upload/v1684195467/dionimarayogaeterapias.com.br/ofertas/oferta_mes_das_maes.webp",
+        "featuredImageURL": "https://res.cloudinary.com/cloudnila/image/upload/v1684195467/dionimarayogaeterapias.com.br/ofertas/oferta_mes_das_maes.webp",
+        "title": "Mês das mães",
+        "description": "Massagem relaxante para mães e reiki com 50% de desconto. Para maiores informações, contatar pelo whats.",
+        "discount": 50,
+        "dateStart": "2023-05-01",
+        "dateEnd": "2023-05-31",
+        "disabled": false
+    },
+    {
+        "id": 1,
         "thumbnailImageURL": "https://res.cloudinary.com/cloudnila/image/upload/v1683854906/dionimarayogaeterapias.com.br/ofertas/oferta_reiki_criancas.webp",
         "featuredImageURL": "https://res.cloudinary.com/cloudnila/image/upload/v1683854906/dionimarayogaeterapias.com.br/ofertas/oferta_reiki_criancas.webp",
         "title": "Reiki para crianças",
@@ -8,7 +19,7 @@
         "discount": 50,
         "dateStart": "2023-05-01",
         "dateEnd": "2023-05-31",
-        "disabled": false
+        "disabled": true
     },
     {
         "id": 2,
@@ -19,6 +30,6 @@
         "discount": 50,
         "dateStart": "2023-05-01",
         "dateEnd": "2023-05-31",
-        "disabled": false
+        "disabled": true
     }
 ]

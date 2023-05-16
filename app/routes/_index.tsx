@@ -25,7 +25,7 @@ export function loader() {
 
   // TODO: Check the validation of the deals
 
-  const dealsUI: DealUI[] = deals.map(t => {
+  const dealsUI: DealUI[] = deals.filter(d => d.disabled === false).map(t => {
     return {
       ...t,
       infoMessage: `Olá, gostaria de saber mais sobre a promoção ${t.title}. <Faça sua pergunta>`,
