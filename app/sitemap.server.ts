@@ -5,6 +5,9 @@ import getDomainUrl from "./utils/get-domain-url";
 import removeTrailingSlash from "./utils/remove-trailing-slash";
 import typedBoolean from "./utils/typed-boolean";
 
+// for dinamic routes see the kcd repo
+// for the dinamic routes kcd adds a getSitemapEntries method to the handle object in the route file ${route}.tsx
+
 /*
  * This function generates a sitemap.xml file for your site. It's called by
  * the runtime routes in `app/runtime-routes.server.ts` when a request comes
