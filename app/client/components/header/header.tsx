@@ -11,7 +11,7 @@ export default function Header() {
             <div className="flex justify-center mb-4">
                 <Logo variant="sky" />
             </div>
-            <div className="flex justify-center gap-6">
+            <div className="grid grid-cols-3">
                 <HeaderIconGroup variant="instagram" label="Instagram" to="https://www.instagram.com/yogaterapia_dionimara/" />
                 <HeaderIconGroup variant="whatsapp" label="Whatsapp" to="https://wa.me/5546991364002?text=Ol%C3%A1%2C+tudo+bem%3F+Gostaria+agendar+%3Ccoloque+o+servi%C3%A7o%3E" />
                 <HeaderIconGroup variant="directions" label="Rotas" to="https://www.google.com/maps/dir//Dioni%20Mara%20Yoga%20&%20Terapias%20Tv.%20Pinheiro%20Machado,%20362%20-%20La%20Salle,%20Pato%20Branco%20-%20PR,%2085505-060" />
