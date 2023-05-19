@@ -8,14 +8,14 @@ import ServiceBox from "~/client/components/service-box/service-box";
 import type { Handle, ServiceUI } from "~/types";
 
 export const handle: Handle = {
-    lastModified: () => '2023-05-16T12:00:00Z',
+    lastModified: () => '2023-05-18T12:00:00Z',
 }
 
 export const meta: V2_MetaFunction = () => {
     return [
-        { title: "Dioni Mara Yoga & Terapias" },
+        { title: "Yoga - Dioni Mara Yoga & Terapias" },
         { description: "Dioni Mara Yoga & Terapias oferece práticas de yoga, terapias, massagem, reiki e meditação para empresas, escolas, academias. Melhore sua flexibilidade, força, equilíbrio e concentração para uma vida saudável e equilibrada. Agende agora pelo WhatsApp." },
-        { keywords: "yoga, terapias, massagem, reiki, meditação, yoga em casa, yoga online, yoga em grupo, yoga em empresas, yoga em escolas, yoga em academias, yoga em condomínios, yoga" }
+        { keywords: "yoga para crianças, yoga para gestantes, yoga para adulto, meditação, kundalini, yoga online, yoga em grupo, yoga em escolas, yoga em academias" }
     ]
 }
 

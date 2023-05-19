@@ -11,7 +11,7 @@ interface ServiceBoxProps {
 }
 
 export default function ServiceBox({ imageUrl, name, shortDescription, infoMessage, bookingMessage }: ServiceBoxProps) {
-    return <div className="bg-violet-200 rounded-xl py-6 px-4">
+    return <div className="bg-violet-100 rounded-xl py-6 px-4">
         <div className="flex flex-col md:flex-row md:gap-4">
             {imageUrl && <div className="h-52 md:h-64 md:min-w-[10rem] bg-cover bg-center mb-4 rounded-md" style={{ backgroundImage: `url(${imageUrl})` }}></div>}
             <div>
