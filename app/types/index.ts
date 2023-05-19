@@ -25,7 +25,7 @@ export interface Deal {
   disabled: boolean;
 }
 
-export interface DealUI extends Deal {
+export interface SalePromoUI extends Deal {
   infoMessage: string;
   bookingMessage: string;
 }
