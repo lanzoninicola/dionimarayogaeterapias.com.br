@@ -12,9 +12,9 @@ export const handle: Handle = {
 
 export const meta: V2_MetaFunction = () => {
   return [
-    { title: "Dioni Mara Yoga & Terapias" },
+    { title: "Massagens - Dioni Mara Yoga & Terapias" },
     { description: "Encontre alívio para o estresse e a dor crônica com as terapias manuais personalizadas de Dioni Mara Yoga e Terapias. Experimente a massagem modeladora, drenagem linfatíca, relaxante ou com ventosas e agende agora mesmo." },
-    { keywords: "yoga, terapias, massagem, reiki, meditação, yoga em casa, yoga online, yoga em grupo, yoga em empresas, yoga em escolas, yoga em academias, yoga em condomínios, yoga" }
+    { keywords: "massagem modeladora, massagem relaxante, massagem com ventosas, drenagem linfática, massagem com pedras, bambuterapia" }
   ]
 }
 

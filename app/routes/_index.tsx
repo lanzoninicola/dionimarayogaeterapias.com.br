@@ -17,14 +17,13 @@ export const handle = {
 }
 
 export const meta: V2_MetaFunction = (serverRuntimeMetaArgs) => {
-  const loaderData: SalePromoUI[] = serverRuntimeMetaArgs?.data || []
-
-  const salePromosClaim: string = loaderData.filter(p => p.disabled === false).map(p => `${p.servicesPromo.join(" ou ")} com ${p.discount}% de desconto até ${new Date(p.dateEnd).toLocaleDateString('br-pt')}`).join(", ")
+  // const loaderData: SalePromoUI[] = serverRuntimeMetaArgs?.data || []
+  // const salePromosClaim: string = loaderData.filter(p => p.disabled === false).map(p => `${p.servicesPromo.join(" ou ")} com ${p.discount}% de desconto até ${new Date(p.dateEnd).toLocaleDateString('br-pt')}`).join(", ")
 
   return [
     { title: "Dioni Mara Yoga & Terapias" },
     { description: "Meu nome é Dioni Mara. Entendo a importância do autocuidado, do bem-estar. Yoga, Técnicas de Massagens e Terapias Holísticas são as minhas ferramentas para ajudá-lo a alcançar seus objetivos de saúde, tanto a curto quanto a longo prazo. Convido você a vivenciar uma experiência única, terapêutica e relaxante, venha e veja por si mesmo o valor que a massagem terapêutica e a pratíca do yoga tem em seu corpo, mente e espírito.", },
-    { keywords: "yoga, terapias, massagem, reiki, meditação, yoga em casa, yoga online, yoga em grupo, yoga em empresas, yoga em escolas, yoga em academias, yoga em condomínios, yoga" }
+    { keywords: "yoga para crianças, yoga para gestantes, yoga para adulto, massagem modeladora, massagem relaxante, massagem com ventosas, drenagem linfática, massagem com pedras, bambuterapia, reiki, reiki para gestantes, reiki para crianças, meditação, kundalini, terapia holísticas, reflexoterapia, terapia floral, numerologia, calatonia, yoga online, yoga em grupo, yoga em escolas, yoga em academias" }
   ]
 }
 

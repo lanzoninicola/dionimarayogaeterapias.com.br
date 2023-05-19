@@ -15,7 +15,7 @@ export const meta: V2_MetaFunction = () => {
     return [
         { title: "Terapias Holísticas - Dioni Mara Yoga & Terapias" },
         { description: "Descubra como a terapia holística pode ajudar a equilibrar seu corpo, mente e espírito. Oferecemos tratamentos de Reiki e Reflexoterapia para reduzir o estresse, aliviar dores e promover o bem-estar integral. Agende sua terapia agora!" },
-        { keywords: "yoga, terapias, massagem, reiki, meditação, yoga em casa, yoga online, yoga em grupo, yoga em empresas, yoga em escolas, yoga em academias, yoga em condomínios, yoga" }
+        { keywords: "reiki, reiki para gestantes, reiki para crianças, terapia holísticas, reflexoterapia, terapia floral, numerologia, calatonia" }
     ]
 }
 
