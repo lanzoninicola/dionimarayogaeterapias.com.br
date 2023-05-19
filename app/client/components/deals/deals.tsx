@@ -1,4 +1,4 @@
-import { DealUI } from "~/types";
+import type { DealUI } from "~/types";
 import Container from "../layout/container/container";
 import WhatsappExternalLink from "../whatsapp-external-link/whatsapp-external-link";
 
@@ -27,7 +27,7 @@ interface DealBoxProps {
 }
 
 function DealBox({ imageUrl, title, discount, to }: DealBoxProps) {
-    return <div className=" flex flex-col bg-violet-200 rounded-xl py-6 px-4 gap-4">
+    return <div className=" flex flex-col bg-violet-100 rounded-xl py-6 px-2 gap-6">
         <div>
             <img src={imageUrl} className="mb-6 rounded-md" alt={`Oferta do momento: desconto ${discount}% para ${title}`} />
             <h3 className="font-extrabold flex flex-col justify-center gap-0 mb-2">
@@ -36,6 +36,6 @@ function DealBox({ imageUrl, title, discount, to }: DealBoxProps) {
             </h3>
             <h4 className="text-lg leading-tight uppercase">{title}</h4>
         </div>
-        <WhatsappExternalLink ariaLabel="Saiba mais" message={"Olá"} style={"flex text-white justify-center rounded-full bg-sky-700 py-2 px-4 md:px-8 shadow-md hover:bg-sky-600 hover:text-white transition-colors duration-300"}>Saiba mais</WhatsappExternalLink>
+        <WhatsappExternalLink ariaLabel="Saiba mais" message={"Olá"} style={"flex uppercase text-sm font-bold justify-center rounded-full bg-sky-200 py-1 px-4 md:px-8 shadow-md hover:bg-sky-600 hover:text-white transition-colors duration-300"}>Saiba mais</WhatsappExternalLink>
     </div>
 }

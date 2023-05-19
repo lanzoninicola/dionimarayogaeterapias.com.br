@@ -15,10 +15,15 @@ export const handle = {
   lastModified: () => '2023-05-16T12:00:00Z',
 }
 
-export const meta: V2_MetaFunction = () => {
+export const meta: V2_MetaFunction = (serverRuntimeMetaArgs) => {
+
+  const loaderData: DealUI[] = serverRuntimeMetaArgs?.data || []
+
+  const promosString: string = loaderData.filter(p => p.disabled === false).map(p => `${p.servicesPromo.join(" ou ")} com ${p.discount}% de desconto até ${new Date(p.dateEnd).toLocaleDateString('br-pt')}`).join(", ")
+
   return [
     { title: "Dioni Mara Yoga & Terapias" },
-    { description: "Dioni Mara Yoga & Terapias" },
+    { description: "Meu nome é Dioni Mara. Entendo a importância do autocuidado, do bem-estar. Yoga, Técnicas de Massagens e Terapias Holísticas são as minhas ferramentas para ajudá-lo a alcançar seus objetivos de saúde, tanto a curto quanto a longo prazo. Convido você a vivenciar uma experiência única, terapêutica e relaxante, venha e veja por si mesmo o valor que a massagem terapêutica e a pratíca do yoga tem em seu corpo, mente e espírito.", },
     { keywords: "yoga, terapias, massagem, reiki, meditação, yoga em casa, yoga online, yoga em grupo, yoga em empresas, yoga em escolas, yoga em academias, yoga em condomínios, yoga" }
   ]
 }
@@ -44,10 +49,10 @@ export default function Index() {
   return <>
     <Container>
       <div className="flex flex-col gap-4 md:gap-8 mb-16">
-        <WhatsappExternalLink ariaLabel="Agendar um hórario" message={"Olá, gostaria agendar um hóraria para <indicar o serviço>"} style={"flex text-white justify-center rounded-full bg-sky-700 py-5 px-8 font-semibold shadow-md hover:bg-sky-600 hover:text-white transition-colors duration-300"}>Agendar um hórario</WhatsappExternalLink>
         <ButtonLink label="Massagens" to="/massagens" />
         <ButtonLink label="Terapias Holísticas" to="/terapias-holisticas" />
         <ButtonLink label="Yoga" to="/yoga" />
+        <WhatsappExternalLink ariaLabel="Agendar um hórario" message={"Olá, gostaria agendar um hóraria para <indicar o serviço>"} style={"flex text-white justify-center rounded-full bg-sky-700 py-5 px-8 font-semibold shadow-md hover:bg-sky-600 hover:text-white transition-colors duration-300"}>Agendar um hórario</WhatsappExternalLink>
         {/* <ButtonLink label="Tour da sala" to="#" />
         <ButtonLink label="Quem é Dioni Mara" to="#" /> */}
       </div>

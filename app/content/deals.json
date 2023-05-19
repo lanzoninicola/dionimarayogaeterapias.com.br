@@ -5,6 +5,10 @@
         "featuredImageURL": "https://res.cloudinary.com/cloudnila/image/upload/v1684195467/dionimarayogaeterapias.com.br/ofertas/oferta_mes_das_maes.webp",
         "title": "Mês das mães",
         "description": "Massagem relaxante para mães e reiki com 50% de desconto. Para maiores informações, contatar pelo whats.",
+        "servicesPromo": [
+            "Massagem relaxante",
+            "Reiki"
+        ],
         "discount": 30,
         "dateStart": "2023-05-01",
         "dateEnd": "2023-05-31",
@@ -16,10 +20,13 @@
         "featuredImageURL": "https://res.cloudinary.com/cloudnila/image/upload/v1683854906/dionimarayogaeterapias.com.br/ofertas/oferta_reiki_criancas.webp",
         "title": "Reiki para crianças",
         "description": "Reiki para crianças (50% de desconto). Crianças de qualquer idade, desde bebês recém nascidos até os mais grandinhos. Papai e mamãe aproveitem. Para maiores informações, contatar pelo whats.",
+        "servicesPromo": [
+            "Reiki para crianças"
+        ],
         "discount": 50,
         "dateStart": "2023-05-01",
         "dateEnd": "2023-05-31",
-        "disabled": true
+        "disabled": false
     },
     {
         "id": 2,
@@ -27,6 +34,9 @@
         "featuredImageURL": "https://res.cloudinary.com/cloudnila/image/upload/v1683854906/dionimarayogaeterapias.com.br/ofertas/oferta_reiki_gestantes.webp",
         "title": "Reiki para gestantes",
         "description": "Gestar uma vida pode ser uma experiência emocionante, mas também desafiadora para muitas mulheres. É por isso que estou oferecendo à você mamãe, uma terapia complementar de Reiki para gestantes. Ao ajudar a equilibrar o fluxo de energia vital do seu corpo, o Reiki pode ajudá-la a relaxar, reduzir o estresse e a ansiedade, além de promover a sensação de bem-estar e conexão com o bebê. Com essa oferta especial para gestantes, você pode aproveitar a chance de experimentar essa terapia incrível e começar a sua jornada de maternidade com mais paz e serenidade. Agende agora a sua sessão de Reiki e permita-se desfrutar de um momento de tranquilidade.",
+        "servicesPromo": [
+            "Reiki para gestantes"
+        ],
         "discount": 50,
         "dateStart": "2023-05-01",
         "dateEnd": "2023-05-31",

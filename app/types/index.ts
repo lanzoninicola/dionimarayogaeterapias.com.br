@@ -19,6 +19,7 @@ export interface Deal {
   title: string;
   description: string;
   discount: number;
+  servicesPromo: string[];
   dateStart: string;
   dateEnd: string;
   disabled: boolean;

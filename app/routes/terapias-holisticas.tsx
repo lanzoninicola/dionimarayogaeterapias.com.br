@@ -8,12 +8,12 @@ import ServiceBox from "~/client/components/service-box/service-box";
 import type { Handle, ServiceUI } from "~/types";
 
 export const handle: Handle = {
-    lastModified: () => '2023-05-16T12:00:00Z',
+    lastModified: () => '2023-05-18T12:00:00Z',
 }
 
 export const meta: V2_MetaFunction = () => {
     return [
-        { title: "Dioni Mara Yoga & Terapias" },
+        { title: "Terapias Holísticas - Dioni Mara Yoga & Terapias" },
         { description: "Descubra como a terapia holística pode ajudar a equilibrar seu corpo, mente e espírito. Oferecemos tratamentos de Reiki e Reflexoterapia para reduzir o estresse, aliviar dores e promover o bem-estar integral. Agende sua terapia agora!" },
         { keywords: "yoga, terapias, massagem, reiki, meditação, yoga em casa, yoga online, yoga em grupo, yoga em empresas, yoga em escolas, yoga em academias, yoga em condomínios, yoga" }
     ]
