@@ -3,23 +3,23 @@ import { json } from "@remix-run/node";
 import type { V2_MetaFunction } from "@remix-run/node";
 
 import { ButtonLink } from "~/client/components/primitives/button-link/button-link";
-import deals from "../content/deals.json"
+import salePromos from "../content/sale-promos.json"
 import Container from "~/client/components/layout/container/container";
 
-import Deals from "~/client/components/deals/deals";
-import type { DealUI } from "~/types";
+
+import type { SalePromoUI } from "~/types";
 
 import WhatsappExternalLink from "~/client/components/whatsapp-external-link/whatsapp-external-link";
+import SalePromos from "~/client/components/sale-promos/sale-promos";
 
 export const handle = {
-  lastModified: () => '2023-05-16T12:00:00Z',
+  lastModified: () => '2023-05-18T12:00:00Z',
 }
 
 export const meta: V2_MetaFunction = (serverRuntimeMetaArgs) => {
+  const loaderData: SalePromoUI[] = serverRuntimeMetaArgs?.data || []
 
-  const loaderData: DealUI[] = serverRuntimeMetaArgs?.data || []
-
-  const promosString: string = loaderData.filter(p => p.disabled === false).map(p => `${p.servicesPromo.join(" ou ")} com ${p.discount}% de desconto até ${new Date(p.dateEnd).toLocaleDateString('br-pt')}`).join(", ")
+  const salePromosClaim: string = loaderData.filter(p => p.disabled === false).map(p => `${p.servicesPromo.join(" ou ")} com ${p.discount}% de desconto até ${new Date(p.dateEnd).toLocaleDateString('br-pt')}`).join(", ")
 
   return [
     { title: "Dioni Mara Yoga & Terapias" },
@@ -30,9 +30,9 @@ export const meta: V2_MetaFunction = (serverRuntimeMetaArgs) => {
 
 export function loader() {
 
-  // TODO: Check the validation of the deals
+  // TODO: Check the validation of the salePromos
 
-  const dealsUI: DealUI[] = deals.filter(d => d.disabled === false).map(t => {
+  const dealsUI: SalePromoUI[] = salePromos.filter(d => d.disabled === false).map(t => {
     return {
       ...t,
       infoMessage: `Olá, gostaria de saber mais sobre a promoção ${t.title}. <Faça sua pergunta>`,
@@ -44,7 +44,7 @@ export function loader() {
 }
 
 export default function Index() {
-  const deals: DealUI[] = useLoaderData();
+  const salePromos: SalePromoUI[] = useLoaderData();
 
   return <>
     <Container>
@@ -57,7 +57,7 @@ export default function Index() {
         <ButtonLink label="Quem é Dioni Mara" to="#" /> */}
       </div>
     </Container>
-    <Deals deals={deals} />
+    <SalePromos list={salePromos} />
   </>
 }
 
