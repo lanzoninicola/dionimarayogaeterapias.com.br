@@ -15,7 +15,7 @@
         "disabled": false
     },
     {
-        "id": 1,
+        "id": 2,
         "thumbnailImageURL": "https://res.cloudinary.com/cloudnila/image/upload/v1683854906/dionimarayogaeterapias.com.br/ofertas/oferta_reiki_criancas.webp",
         "featuredImageURL": "https://res.cloudinary.com/cloudnila/image/upload/v1683854906/dionimarayogaeterapias.com.br/ofertas/oferta_reiki_criancas.webp",
         "title": "Reiki para crianças",
@@ -29,7 +29,7 @@
         "disabled": false
     },
     {
-        "id": 2,
+        "id": 3,
         "thumbnailImageURL": "https://res.cloudinary.com/cloudnila/image/upload/v1683854906/dionimarayogaeterapias.com.br/ofertas/oferta_reiki_gestantes.webp",
         "featuredImageURL": "https://res.cloudinary.com/cloudnila/image/upload/v1683854906/dionimarayogaeterapias.com.br/ofertas/oferta_reiki_gestantes.webp",
         "title": "Reiki para gestantes",
