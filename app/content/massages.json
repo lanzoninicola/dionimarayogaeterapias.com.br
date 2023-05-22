@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682640998/dionimarayogaeterapias.com.br/massagens/massagem-modeladora.png",
+        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682640998/dionimarayogaeterapias.com.br/massagens/massagem-modeladora.jpg",
         "name": "Massagem Modeladora",
         "shortDescription": "A massagem modeladora é uma técnica que utiliza movimentos precisos e pressão para moldar e tonificar os músculos do corpo.",
         "longDescription": "",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682968322/dionimarayogaeterapias.com.br/massagens/massagem_relaxante.png",
+        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682968322/dionimarayogaeterapias.com.br/massagens/massagem_relaxante.jpg",
         "name": "Massagem Relaxante",
         "shortDescription": "Utiliza manobras eficazes para o relaxamento e alívio muscular, equilíbrio do sistema nervoso, melhoramento do sistema circulatório, linfático e respiratório.",
         "longDescription": "",
@@ -20,7 +20,7 @@
     },
     {
         "id": 3,
-        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682968322/dionimarayogaeterapias.com.br/massagens/massagem_com_ventosas.png",
+        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682968322/dionimarayogaeterapias.com.br/massagens/massagem_com_ventosas.jpg",
         "name": "Massagem com Ventosas",
         "shortDescription": "A ventosaterapia é uma técnica natural que atua no alívio de tensões, contraturas e dores, favorecendo a eliminação de toxinas e nutrindo os músculos. Através da pressão causada pela ventosa, o sangue é atraído para a área tratada aumentando seu fluxo e reduzindo a inflamação.",
         "longDescription": "",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682968322/dionimarayogaeterapias.com.br/massagens/drenagem_linfatica.png",
+        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682968322/dionimarayogaeterapias.com.br/massagens/drenagem_linfatica.jpg",
         "name": "Drenagem Linfática",
         "shortDescription": "Ajuda o corpo a eliminar líquido e toxinas. É utilizada no pós- operatório, em casos de inchaço, linfedema e facilita o tratamento de celulite.",
         "longDescription": "",
@@ -42,7 +42,7 @@
     },
     {
         "id": 5,
-        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682968414/dionimarayogaeterapias.com.br/massagens/pedras_quentes_ou_frias.png",
+        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682968414/dionimarayogaeterapias.com.br/massagens/pedras_quentes_ou_frias.jpg",
         "name": "Pedras Quentes e/ou Frias",
         "shortDescription": "É uma técnica que consiste no uso de pedras específicas, quentes, frias ou com temperaturas opostas e que por meio da manipulação das mesmas e aplicação em diversos pontos do corpo, promovem intenso relaxamento psicofísico, transmutam e harmonizam as energias.",
         "longDescription": "",
@@ -53,7 +53,7 @@
     },
     {
         "id": 6,
-        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682968322/dionimarayogaeterapias.com.br/massagens/bambuterapia.png",
+        "imageUrl": "https://res.cloudinary.com/cloudnila/image/upload/v1682968322/dionimarayogaeterapias.com.br/massagens/bambuterapia.jpg",
         "name": "Bambuterapia",
         "shortDescription": "É uma técnica de massagem que utiliza bambus para aliviar tensões e dores, estimular as glândulas, diminuir inchaços e promover relaxamento profundo.",
         "longDescription": "",
