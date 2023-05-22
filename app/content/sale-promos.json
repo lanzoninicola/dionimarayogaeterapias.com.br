@@ -26,7 +26,7 @@
         "discount": 50,
         "dateStart": "2023-05-01",
         "dateEnd": "2023-05-31",
-        "disabled": false
+        "disabled": true
     },
     {
         "id": 3,
