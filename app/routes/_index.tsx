@@ -10,7 +10,8 @@ import Container from "~/client/components/layout/container/container";
 import type { SalePromoUI } from "~/types";
 
 import WhatsappExternalLink from "~/client/components/whatsapp-external-link/whatsapp-external-link";
-import SalePromos from "~/client/components/sale-promos/sale-promos";
+import SalePromosSection from "~/client/components/sections/sale-promos-section/sale-promos-section";
+import AboutmeSection from "~/client/components/sections/aboutme-section/aboutme-section";
 
 export const handle = {
   lastModified: () => '2023-05-18T12:00:00Z',
@@ -46,8 +47,8 @@ export default function Index() {
   const salePromos: SalePromoUI[] = useLoaderData();
 
   return <>
-    <Container>
-      <div className="flex flex-col gap-4 md:gap-8 mb-16">
+    <Container clazzes="mb-16">
+      <div className="flex flex-col gap-4 md:gap-8">
         <ButtonLink label="Massagens" to="/massagens" />
         <ButtonLink label="Terapias Holísticas" to="/terapias-holisticas" />
         <ButtonLink label="Yoga" to="/yoga" />
@@ -56,7 +57,8 @@ export default function Index() {
         <ButtonLink label="Quem é Dioni Mara" to="#" /> */}
       </div>
     </Container>
-    <SalePromos list={salePromos} />
+    <SalePromosSection list={salePromos} />
+    <AboutmeSection />
   </>
 }
 

@@ -1,17 +1,17 @@
 import type { SalePromoUI } from "~/types";
-import Container from "../layout/container/container";
-import WhatsappExternalLink from "../whatsapp-external-link/whatsapp-external-link";
+import Container from "../../layout/container/container";
+import WhatsappExternalLink from "../../whatsapp-external-link/whatsapp-external-link";
 
 interface SalePromosProps {
     list: SalePromoUI[];
 }
 
-export default function SalePromos({ list }: SalePromosProps) {
+export default function SalePromosSection({ list }: SalePromosProps) {
 
     if (!list || list.length === 0) return null;
 
-    return <Container>
-        <h2 className="font-extrabold text-2xl mb-4">Ofertas do momento</h2>
+    return <Container clazzes="mb-16">
+        <h2 className="font-extrabold text-2xl mb-4">🎁 Ofertas do momento</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {list.map((salePromo) => <SalePromoBox key={salePromo.id} imageUrl={salePromo.thumbnailImageURL} to={salePromo.infoMessage} title={salePromo.title} discount={salePromo.discount} />)}
         </div>

@@ -2,9 +2,14 @@
 
 ## TODO
 
-- [ ] sitemap & robots.txt
+- [x] sitemap & robots.txt
+- [ ] improve Lightouse score for each page
+  - [ ] yoga
+  - [ ] massage
+  - [ ] terapias
 - [ ] SEO improvements
   - [ ] for each page add meta SEO tags
+- [ ] Heatmpa https://www.hotjar.com/
 - [ ] 404 page
 - [ ] Add customers testimonials
 - [ ] Add page with the photos of studio
